@@ -23,5 +23,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "POI": {
+    "dataSource": "turisteARdb",
+    "public": true
   }
 }

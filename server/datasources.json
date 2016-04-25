@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "turisteARdb": {
+    "host": "$OPENSHIFT_MYSQL_DB_HOST",
+    "port": null,
+    "database": "loopbackapi",
+    "password": "aZ7jMQKQJE3Y",
+    "name": "turisteARdb",
+    "user": "admine8lqlFr",
+    "connector": "mysql"
   }
 }

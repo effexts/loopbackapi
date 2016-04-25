@@ -1,0 +1,55 @@
+{
+  "name": "POI",
+  "plural": "POIs",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "lat": {
+      "type": "number",
+      "required": true
+    },
+    "lon": {
+      "type": "number",
+      "required": true
+    },
+    "elevation": {
+      "type": "number",
+      "required": true
+    },
+    "height": {
+      "type": "number",
+      "required": true
+    },
+    "webpage": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "image_link": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -5,7 +5,7 @@
   },
   "turisteARdb": {
     "host": "OPENSHIFT_MYSQL_DB_HOST",
-    "port": OPENSHIFT_MYSQL_DB_PORT,
+    "port": null,
     "database": "loopbackapi",
     "password": "aZ7jMQKQJE3Y",
     "name": "turisteARdb",
